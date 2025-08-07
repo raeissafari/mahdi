@@ -1,0 +1,73 @@
+#unorder {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: grey;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+.litem {
+    float: left;
+    list-style: none;
+}
+.link {
+    display: block;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: skyblue;
+}
+.link:hover {
+    background-color: skyblue;
+    color: grey;
+    cursor: pointer;
+}
+.link:active {
+    background-color: rgba(135, 207, 235, 0.692);
+    cursor: context-menu;
+}
+h1,h2,p {
+    text-align: center;
+}
+#masage {
+    width: 300px;
+    height: 100px;
+}
+#ul {
+    display: none;
+}
+#li:hover ul {
+    display: grid;
+}
+#sel {
+    text-align: center;
+    border: none;
+    padding: 15px 20px; 
+    background-color: grey;
+    color: skyblue;
+}
+#sel:hover {
+    background-color: skyblue;
+    color: gray;
+    cursor: pointer;
+}
+#sel:active {
+    background-color: rgba(135, 207, 235, 0.692);
+    cursor: context-menu;
+}    
+.op { 
+    text-align: center;
+    border: none;
+    padding: 30px 45px;
+    background-color: grey;
+    color: skyblue;
+    padding-block-start: 5px;
+}
+.op:hover { 
+    background-color: skyblue;
+    color: grey;
+    cursor: pointer;
+}
