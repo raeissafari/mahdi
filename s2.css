@@ -1,0 +1,555 @@
+
+body { 
+    font-family: "Rubik", sans-serif;
+    margin: 0px;
+    zoom: 85%;
+}
+footer {
+    zoom: 80%;
+}
+.header1 {
+    padding: 0px;
+    padding-left: 30px;
+}
+.header2 {
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.it1 {
+    padding: 10px;
+}
+.link {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 0px 10px;
+}
+.link:hover {
+    color: rgba(0, 0, 0, 0.473);
+}
+.header3 {
+    padding: 0px;
+    padding-right: 30px;
+}
+.header-flex {
+    padding: 0px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: rgb(170, 170, 170);
+    box-shadow: 0px 2px 10px 3.5px #333;
+    border-radius: 70px;
+    padding: 0px 10px;
+    z-index: 10;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+#ds {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.divstart {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+}
+.img2 { 
+    filter: blur(6px);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+#text {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding-top: 10px;
+    font-size: xx-large;
+    color: black;
+}
+.strong {
+    color: darkred;
+}
+#h1 {
+    font-size: 5rem;
+    padding-bottom: 10px;
+}
+#u {
+    padding: 30px;
+    position: relative;
+    z-index: 2;
+    font-size: 5rem;
+    border: 7px dashed black;
+    border-radius: 30px;
+}
+.main .divs:nth-child(odd) {
+    padding: 0px 40px;
+    margin: 0px;
+    background-color: rgb(211, 211, 211);
+    text-align: center;
+}
+.main .divs:nth-child(even) {
+    padding: 0px 40px;
+    margin: 0px;
+    background-color: rgb(228, 228, 228);
+    text-align: center;
+}
+#sumary-alborz {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+#sap {
+    text-align: center;
+    font-size: larger;
+}
+.sabu {
+    position: relative;
+    width: 170px;
+    height: 50px;
+    background-color: rgb(80, 80, 255);
+    color: black;
+    border: none;
+    border-radius: 15px;
+}
+.sau {
+    font-size: x-large;
+}
+.sabu::after {
+    content: '';
+    position: absolute;
+    top: -13px;
+    left: -13px;
+    right: -13px;
+    bottom: -13px;
+    border: 5px dashed rgb(80, 80, 255);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    border-radius: 20px;
+}
+.sabu:hover::after {
+    opacity: 0.8;
+    cursor: pointer;
+}
+#tap {
+    text-align: right;
+    font-size: large;
+}
+#tah2 {
+    text-align: right;
+    font-size: x-large;
+}
+#taul {
+    text-align: right;
+    direction: rtl;
+    list-style-type: disc;
+}
+#taul li {
+    font-size: x-large;
+    margin: 20px;
+    padding-right: 20px;
+}
+.tah22 {
+    text-align: center;
+    font-size: x-large;
+}
+.tad {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 40px;
+    height: 500px;
+}
+.tadiv {
+    position: relative;
+    width: 250px;
+    height: 340px;
+    background-color: rgb(228, 228, 228);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 4px 12px 0.5px #333;
+    padding: 30px;
+}
+.tadiv:hover {
+    height: 500px;
+    transition: 0.15s;
+    cursor: pointer;
+}
+.tadiv p {
+    display: none;
+}
+.tadiv:hover p{
+    display: block;
+}
+.taimg {
+    
+    width: 250px;
+    height: 250px;
+    border: none;
+    border-radius: 20px;
+}
+.ta-div {
+    text-align: center;
+}
+.eah1 {
+    text-align: center;
+    font-size: 3rem;
+}
+.eadivs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 100px;
+}
+.ead {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 100px;
+}
+.eadiv {
+    position: relative;
+    width: 300px;
+    height: 700px;
+    background-color: rgb(211, 211, 211);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 4px 12px 0.5px #333;
+    padding: 30px;
+}
+.eadiv:hover {
+    box-shadow: 4px 4px 12px 7px #333;
+    transition: 0.5s;
+}
+.eaimog {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    font-size: 12rem;
+    border: none;
+    border-radius: 100%;
+    background-color: #333;
+}
+.eaul {
+    text-align: right;
+    direction: rtl;
+}
+.eaul li {
+    margin: 10px;
+    padding-right: 5px;
+}
+.ea-div {
+    text-align: center;
+}
+#eah3 {
+    text-align: right;
+}
+.ea-h-2 {
+    text-align: right;
+    font-size: xx-large;
+}
+.mma {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    border: none;
+    row-gap: 30px;
+}
+.mma10 {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    background-color: rgb(228, 228, 228);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 4px 12px 0.5px #333;
+    padding: 40px;
+    direction: ltr;
+}
+.mma11 {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    background-color: rgb(228, 228, 228);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 4px 12px 0.5px #333;
+    padding: 40px;
+    direction: ltr;
+}
+.mma12 {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    background-color: rgb(228, 228, 228);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 4px 12px 0.5px #333;
+    padding: 40px;
+    direction: ltr;
+}
+.mmaf {
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    background-color: gold;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 3px 3px 20px 4px #333;
+    padding: 40px;
+    text-align: center;
+}
+.maf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.mfh3 {
+    text-align: center;
+    font-size: x-large;
+}
+.mfp {
+    text-align: center;
+    font-size: larger;
+}
+.mmaol {
+    text-align: right;
+    direction: rtl;
+}
+.mmaol li {
+    margin: 10px;
+    padding-right: 10px;
+}
+.mmah3 {
+    text-align: right;
+}
+.mdah2 {
+    text-align: right;
+    font-size: xx-large;
+}
+.mdaul {
+    text-align: right;
+    direction: rtl;
+}
+.mdaul li {
+    margin: 20px;
+    padding-right: 5px;
+}
+.mdali{
+    font-size: larger;
+}
+.tah2 {
+    text-align: center;
+    font-size: xx-large;
+}
+.oata {
+    padding: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 3px 3px 20px 4px #333;
+    width: 100%;
+    direction: rtl;
+    background-color: rgb(230, 230, 230);
+}
+.oaca {
+    caption-side: bottom;
+    padding: 10px;
+    padding-top: 30px;
+    font-weight: bolder;
+}
+.thw {
+    width: 20%;
+    height: 50px;
+    background-color: rgb(70, 70, 70);
+    border-radius: 30px;
+}
+td {
+    width: 20%;
+    height: 50px;
+}
+.olth {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    color: white;
+}
+.trtrtr:nth-child(odd) {
+    background-color: rgb(211, 211, 211);
+}
+.trtrtr:nth-child(even) {
+    background-color: rgb(160, 160, 160);
+}
+td {
+    width: 20%;
+    height: 50px;
+    border-radius: 30px;
+}
+.t {
+    background-color: gold;
+}
+.s {
+    background-color: silver;
+}
+.b {
+    background-color: #b87333;
+}
+.n {
+    font-size: xx-large;
+    background-color: rgb(70, 70, 70);
+    color: white;
+}
+.efbtn {
+    padding: 40px;
+    background-color: gold;
+}
+.pial {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    column-gap: 50px;
+    padding: 40px;
+}
+.infal {
+    background-color: whitesmoke;
+    box-shadow: 4px 4px 12px 0.5px #333;
+    border: none;
+    border-radius: 20px;
+    width: 450px;
+    height: 700px;
+    padding: 30px;
+    direction: ltr;
+    text-align: right;
+}
+.intal {
+    background-color: whitesmoke;
+    box-shadow: 4px 4px 12px 0.5px #333;
+    border: none;
+    border-radius: 20px;
+    width: 900px;
+    height: 100%;
+    padding: 30px;
+    direction: ltr;
+    text-align: right;
+}
+#foal {
+    direction: ltr;
+}
+#foal label {
+    margin: 30px 10px;
+    font-weight: bolder;
+}
+#foal input {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    direction:rtl;;
+}
+#foal textarea {
+    border: none;
+    border-radius: 30px;
+    width: 600px;
+    height: 200px;
+}
+.bualtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 100px;
+    width: 100%;
+    height: 100px;
+}
+.in {
+    font-size: medium;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+.aldivfor {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+.aldivfor div {
+    flex-grow: 1;
+}
+.aldivfor div label {
+    margin: 30px 10px;
+    font-weight: bolder;
+}
+.aldivfor div input {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    direction:rtl;
+}
+.foodiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    margin: 0px;
+    border: none;
+    box-shadow: 0px 0px 10px 5px #333;
+    background-color: rgb(40, 40, 40);
+    column-gap: 150px;
+    height: 200px;
+}
+.foote {
+    color: rgb(80, 80, 80);
+    padding-right: 20px;
+}
+.fooadr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+.fooba {
+    display: flex;
+    justify-content: center;
+    color: rgb(80, 80, 80);
+    padding-left: 20px;
+    padding: 30px 0px;
+    margin: 0px;
+    border: none;
+}
+.foodiba {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+.fooh1 {
+    color: rgb(200, 200, 200);
+}
+.foolink {
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+    padding: 30px;
+}
+.foolink:hover {
+    color: rgb(100, 100, 100);
+    cursor: pointer;
+}
