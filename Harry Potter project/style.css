@@ -7,13 +7,20 @@
     padding-left: 0px;
 }
 .header2 {
-    padding: 18px 30px;
+    padding: 20px 10px;
     display: flex;
     justify-content: center;
     flex-direction: row;
+    zoom: 83%;
 }
 .it1 {
     padding: 10px;
+}
+.it2 {
+    padding: 10px;
+}
+.it2:hover {
+    cursor: default;
 }
 .link {
     text-align: center;
@@ -50,7 +57,7 @@
     zoom: 85%;
     font-family: Arial, Helvetica, sans-serif;
 }
-#h1harrypotter {
+#h1harrypotter { 
     font-size: 5rem;
     text-align: center;
     color: gold;
