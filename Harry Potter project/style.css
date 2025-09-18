@@ -51,8 +51,14 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 #h1harrypotter {
-    font-size: 7rem;
+    font-size: 5rem;
+    text-align: center;
+    color: gold;
+    background-color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 15px dashed gold;
+    border-radius: 70px;
+    padding: 10px 10px;
 }
 .teaching {
     background-color: #1f1f1f;
