@@ -1,0 +1,121 @@
+.body {
+    padding: 50px 100px;
+    background-color: rgb(125 ,125 ,125);
+}
+.header1 {
+    padding: 0px;
+    padding-left: 0px;
+}
+.header2 {
+    padding: 18px 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.it1 {
+    padding: 10px;
+}
+.link {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 8px 10px;
+}
+.link:hover {
+    transition: 0.3s;
+    color: gold;
+    border-bottom: 5px solid gold;
+    box-shadow: 0px 2px 10px 3.5px #333;
+}
+.header3 {
+    padding: 0px;
+    padding-right: 0px;
+}
+.header-flex {
+    padding: 0px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #333333;
+    box-shadow: 0px 2px 10px 3.5px #333;
+    border-radius: 70px;
+    padding: 0px 10px;
+    z-index: 10;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    zoom: 85%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#h1harrypotter {
+    font-size: 7rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.teaching {
+    background-color: #1f1f1f;
+    color: white;
+    border: 3px solid gold;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.mdaddiivv {
+    display: flex;
+    justify-content: center;
+}
+.mdadiv2 {
+    text-align: center;
+    background-color: #1f1f1f;
+    padding: 50px;
+    border-radius: 20px;
+    outline: 10px dotted rgb(125 ,125 ,125);
+    outline-offset: -5px;
+}
+.mdah2 {
+    text-align: right;
+    font-size: x-large;
+    color: white;
+}
+.mdah3 {
+    text-align: right;
+    font-size: larger;
+    color: white;
+}
+.mdah4 {
+    text-align: right;
+    font-size: large;
+    color: white;
+}
+.mdaul {
+    text-align: right;
+    direction: rtl;
+}
+.mdaul li {
+    margin: 20px;
+    padding-right: 5px;
+    color: white;
+}
+.mdali{
+    font-size: large;
+    color: white;
+}
+.mdap {
+    text-align: right;
+    font-size: large;
+    color: white;
+}
+.difo {
+    display: flex;
+    justify-content: center;
+}
+.difo2 {
+    text-align: center;
+    background-color: #1f1f1f;
+    padding: 50px;
+    border-radius: 20px;
+    outline: 10px dotted rgb(125 ,125 ,125);
+    outline-offset: -5px;
+}
